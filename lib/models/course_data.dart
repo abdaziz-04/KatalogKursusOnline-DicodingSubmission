@@ -50,7 +50,7 @@ List<Course> courseList = [
         'https://storage.googleapis.com/britech-blog-engineer-bri-3/2022/1/2022-01-11-102039576949-9d8e4389-8333-43df-8777-bc68e7f9ce00.jpg',
   ),
   Course(
-    title: 'Belajar Flutter Untuk Pemula',
+    title: 'Belajar Fundamental Flutter',
     instructor: 'Aziz',
     description:
         'Memahami konsep Fundamental flutter seperti widget, state management, dan lain-lain.',
