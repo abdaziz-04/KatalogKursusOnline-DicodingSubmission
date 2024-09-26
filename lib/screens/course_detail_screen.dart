@@ -45,6 +45,9 @@ class _CourseDetailScreenState extends State<CourseDetailScreen> {
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.lightBlue,
+        iconTheme: IconThemeData(
+          color: Colors.white,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -184,12 +187,18 @@ class _CourseDetailScreenState extends State<CourseDetailScreen> {
                                     ),
                                   ),
                                   SizedBox(height: 8),
-                                  Text(
-                                    otherCourse.title,
-                                    style: TextStyle(
-                                        fontSize: 20,
+                                  Flexible(
+                                    child: Text(
+                                      otherCourse.title,
+                                      style: TextStyle(
+                                        fontSize: 16,
                                         color: Colors.white,
-                                        fontWeight: FontWeight.bold),
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                      overflow: TextOverflow.ellipsis,
+                                      maxLines: 2,
+                                      textAlign: TextAlign.center,
+                                    ),
                                   ),
                                 ],
                               ),

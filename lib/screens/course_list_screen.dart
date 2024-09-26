@@ -23,7 +23,6 @@ class CourseListScreen extends StatelessWidget {
                 Course course = courseList[index];
                 List<Course> otherCourses = List.from(courseList)
                   ..removeAt(index);
-
                 return Padding(
                   padding:
                       const EdgeInsets.symmetric(vertical: 2, horizontal: 16),

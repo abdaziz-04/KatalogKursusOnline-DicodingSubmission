@@ -23,7 +23,7 @@ List<Course> courseList = [
     description:
         'Pengantar lengkap ke dasar-dasar Machine Learning, termasuk statistik, algoritma, dan penerapan.',
     imageUrl:
-        'https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/machine-learning-pillar-page-overview.jpeg',
+        'https://www.mas-software.com/wp-content/uploads/2021/07/Machine-Learning.jpg',
   ),
   Course(
     title: 'iOS App Development for Beginners',
