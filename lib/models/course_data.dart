@@ -49,4 +49,12 @@ List<Course> courseList = [
     imageUrl:
         'https://storage.googleapis.com/britech-blog-engineer-bri-3/2022/1/2022-01-11-102039576949-9d8e4389-8333-43df-8777-bc68e7f9ce00.jpg',
   ),
+  Course(
+    title: 'Belajar Flutter Untuk Pemula',
+    instructor: 'Aziz',
+    description:
+        'Memahami konsep Fundamental flutter seperti widget, state management, dan lain-lain.',
+    imageUrl:
+        'https://palcomtech.ac.id/wp-content/uploads/2023/10/60bb4a2e143f632da3e56aea_Flutter-app-development-2.png',
+  ),
 ];

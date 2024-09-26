@@ -40,7 +40,11 @@ class _CourseDetailScreenState extends State<CourseDetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.course.title),
+        title: Text(
+          widget.course.title,
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.lightBlue,
       ),
       body: SingleChildScrollView(
         child: Column(

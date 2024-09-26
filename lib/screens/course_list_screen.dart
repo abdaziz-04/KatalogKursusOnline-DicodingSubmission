@@ -74,7 +74,7 @@ class CourseListScreen extends StatelessWidget {
             padding: EdgeInsets.all(10),
             child: Center(
               child: Text(
-                '© 2023 Abdul Aziz',
+                '© 2024 Abdul Aziz',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.black54,
